@@ -1,0 +1,6 @@
+.idea
+__init__.py
+*.png
+*.yaml
+*.md
+tests
