@@ -1,5 +1,5 @@
 def task(numbers: list) -> int:
-    gen_exp = ...  # TODO записать выражение-генератор для возведения чисел в квадрат
+    gen_exp = (number ** 2 for number in numbers)  # TODO записать выражение-генератор для возведения чисел в квадрат
     return sum(gen_exp)
 
 
