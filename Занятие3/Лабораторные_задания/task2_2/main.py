@@ -2,9 +2,11 @@ import json
 
 
 def task(input_filename: str, output_filename: str) -> None:
-    ...  # TODO считать содержимое json файл input.json
+    with open(input_filename, 'r') as f:
+        data = json.load(f)  # TODO считать содержимое json файл input.json
 
-    ...  # TODO записать содержимое в json файл output.json с отступами
+    with open(output_file, 'w') as f:
+        json.dump(data, f, indent=4)  # TODO записать содержимое в json файл output.json с отступами
 
 
 if __name__ == "__main__":
