@@ -7,6 +7,7 @@ def task():
         f.write("\n")
 
 
+
 if __name__ == "__main__":
     task()
 

@@ -10,6 +10,7 @@ def task():
     return sum(map_iterator)
 
 
+
 if __name__ == "__main__":
     result = task()
     print(f"{result:.3f}")
